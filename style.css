@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./image/hammer.jpg);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 63%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+.container{
+    width: 100vw;
+    margin: auto;
+    background-color: #322d22;
+}
+/********************* navbar section ***********/
+header{
+    width: 80vw;
+    margin: auto;
+}
+
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+}
+
+.logo{
+    height: 2.3rem;
+    margin-right: auto;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 1.4rem;
+}
+
+.nav_list_item{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 1rem;
+    color: rgb( 121, 120, 118);
+    cursor: pointer;
+}
+.nav_btn{
+    background-color: transparent;
+    border: 1px solid #a08f36;
+    color: #a08f36;
+    padding: 10px 20px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: 700;
+    
+}
+/****************** hero section***************/
+main{
+    width: 82vw;
+    margin: auto;
+    padding-bottom: 4rem;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 4rem;
+}
+
+
+.hero_left{
+    width: 100%;
+}
+
+.hero_left_heading{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.hero_right{
+    padding: 2rem 3rem;
+    width: 50%;
+}
+.hero_right_text{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb( 121, 119, 119);
+    line-height: 1.5;
+}
